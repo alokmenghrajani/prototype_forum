@@ -1,0 +1,35 @@
+Known issues
+------------
+* file upload doesn't work for files >10 MB
+* there once was a popup issue with Chrome and links. Unsure if fixed.
+* safari once crashed. Unsure if we can repro?
+* Jordan reported some issues with Chrome.
+* When you create a hackathon, no projects are selected. The code should automatically return the first
+  project. It current leads to an empty presentation view. Similar things happen if the currently selected
+  presentation gets deleted.
+* Implement proper privacy checks. Right now, anyone can edit anyone's data.
+
+
+Feature requests
+----------------
+* Make sure stats page is reactive. I think I did this, but can't remember.
+* Make the tool faster by:
+  - optimizing the client->server form submit code (reducing the number of round trips)
+  - non ping-loop controlled form submit
+  - http://localhost:8080/?__do_login=536181839 is super slow (takes upto 6 seconds!)
+    need to figure out why and fix things.
+  - it's possible to optimize the mongo queries. It breaks the "one language to rule them all" aspect
+    of the code, but might be a perf win.
+* secure/improve authentication system
+* switch back to OpaSerialize.unserialize_unsafe(r, @typeval(list(int)))
+* remember user's previous location
+* send a confirmation email
+* vote up/down a project
+* display next up on a 2nd screen?
+* make it rock on mobile!
+* Create a config.opa.default file
+
+More stuff
+----------
+* go through TODOs in the code
+

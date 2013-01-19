@@ -1,0 +1,215 @@
+#main {
+	margin-top: 50px;
+}
+
+.fbnav .navbar-inner {
+  background: #374665;
+}
+
+textarea {
+    width: 100%;
+}
+
+.footer {
+    background-color: #F5F5F5;
+    border-top: 1px solid #E5E5E5;
+    margin-top: 70px;
+    padding: 70px 0;
+}
+.footer p {
+    color: #777777;
+    margin-bottom: 0;
+}
+.footer-links {
+    margin: 10px 0;
+}
+.footer-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+#links .close {
+  float: left;
+  margin-right: 10px;
+}
+
+.tag-input .main {
+    -moz-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    width: 538px;
+ }
+
+.tag-input .tag {
+  margin: 2px;
+}
+
+.tag-input .tag .close {
+  float: inherit;
+  padding-bottom: 6px;
+}
+
+.tag-input input {
+  border: 0;
+}
+
+.thumbnail > div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.text_thumbnail {
+    float: left;
+    width: 166px;
+    height: 142px;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+    padding: 4px;
+    margin: 2px 2px 22px 2px;
+    position: relative;
+}
+
+.text_thumbnail div {
+    color: #0088CC;
+    text-align: center;
+}
+
+.text_thumbnail span {
+    position: absolute;
+    bottom: 0;
+}
+
+.text_thumbnail input {
+    position: absolute;
+    bottom: -20px;
+    left: 80px;
+}
+
+.active_cell > div {
+  border: 1px solid red;
+}
+
+.hack_forum {
+  overflow: hidden;
+  height: 100%;
+}
+
+.hack_forum .border {
+  background-image: url('/resources/graph.png');
+  background-repeat:no-repeat;
+  background-position: bottom right;
+  border: 10px solid #7d97c2;
+  margin: 0px;
+  padding: 0px;
+  background-color: #466eaa;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0
+}
+
+.hack_forum .facebook-title {
+  position: relative;
+  color: white;
+  font-size: 20px;
+  left: 50px;
+  top: 30px;
+  margin: 0;
+}
+
+.hack_forum .b {
+  position: absolute;
+  left: 50px;
+  bottom: 30px;
+}
+
+.hack_forum .date-title {
+  color: white;
+  font-size: 20px;
+}
+
+.hack_forum .date-subtitle {
+  color: white;
+  font-size: 15px;
+}
+
+.hack_forum .pres-title {
+  position: relative;
+  color: white;
+  font-size: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
+  top: 220px;
+  line-height: 1em;
+}
+
+
+.hack_forum .pres-subtitle {
+  position: relative;
+  color: #9DB7E2;
+  font-size: 30px;
+  left: 50px;
+  top: 260px;
+}
+
+.hack_forum #project {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  padding: 10px;
+}
+
+.hack_forum ul {
+  position: relative;
+  top: 300px;
+  left: 50px;
+  font-size: 20px;
+  list-style-type: none;
+  margin-left: 0px;
+}
+
+.hack_forum ul li{
+  margin-top: 0.3em;
+}
+
+.hack_forum ul li a:link {
+  color:#9DB7E2;
+  text-decoration: none;
+}
+
+.hack_forum ul li a:visited {
+  color:#9DB7E2;
+  text-decoration: none;
+}
+
+.hack_forum ul li a:hover {
+  color:white;
+}
+
+.admin > li > a {
+  display: inline;
+}
+
+.login_as {
+  position: absolute;
+  top: 30px;
+  height: 0px;
+  right: 50px;
+}
+
+.login_as iframe {
+  border: 0;
+}

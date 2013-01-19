@@ -1,0 +1,63 @@
+Code layout
+-----------
+
+The prototype forum code tries to keep a model-view-controller separation:
+- the model is shared between all the views and controllers.
+- the views contain mostly the client side xhtml stuff. Opa does the slicing for us, so it's not 100% accurate.
+- the controllers contain mostly the database accesses and reactive stuff.
+
+Main entry point:
+  controller.opa
+  model.opa
+
+Hackathon:
+  hackathon_model.opa
+  hackathon_view.opa
+
+Projects
+  projects_model.opa
+  projects_view.opa
+
+Admin (creating & editing Hackathons):
+  admin.opa (TODO: split this code into admin_view and admin_controller?)
+
+Registration view:
+  register.opa
+
+Forum view and controller:
+  forum.opa (TODO: split this code into forum_view and forum_controller?)
+
+Presentation view:
+  presention.opa
+
+Logged-in state:
+  user_model.opa
+
+Library which might one day exist in Opa's stdlib:
+  date_utils.opa
+  uri_utils.opa
+  utils.opa
+
+Our customizations:
+  fb.opa
+  import.opa
+  stats.opa
+
+Other stuff:
+  Date & time picker (used in the admin interface)
+    date_time_picker.opa
+
+  Typeahead with little tags
+    employee_tag_input.opa
+    project_tag_input.opa
+
+
+  Sortable lists of divs (drag 'n drop):
+    jQuery-UI/plugin/sortable.js (js binding)
+    jQuery-UI/sortable.opa
+
+  Opening & closing links (using named windows):
+    window/external_window.js (js binding)
+    window/window.opp
+
+  view.opa
